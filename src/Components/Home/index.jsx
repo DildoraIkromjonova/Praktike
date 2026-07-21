@@ -3,9 +3,9 @@ import {
   AirpodDesc, AirpodImg, AirpodsCard, AirpodTitle, AirpodWrapper, Arrows, Banner, BannerBtn, BannerDesc, Bannerfoto, BannerImG, Bannertitle, BannerWrapper, Bigbanner, BigbannerImg, BigBanners, BigButton, BiGSummer, BottomCards, BrowseCategory, CategoryCard, Categoryes, ColumnTitle, Container, Container2, Container3, Content, ContentButton, Desc, DescBaner, Discount, DiscountBtn, DiscountCard, DiscountImG, DiscountTile, DiscountTiTle, DWrap, Footer, FooterAbout, FooterColumn, FooterContainer, FooterIcons, FooterList, FooterLogo, Icons, IconsWrapper, IMG, InputWrapper, Item, LeftSection, Link, List, Lorem, Makbook, MakbookButton, MakbookDesc, MakbookImg, MakbookTitle, MakbookWrapper, Popular, PopularProducts, ProductBtn, ProductCard, Products, ProductsGrid, ProductsImG, ProductTiTle, PS5Banner, Row1, Row2, Roww, Tag, TagCategory, Tags, Title, TitleH1, TitleWrapper, VisionCard, VisionDesc, VisionImg, VisionTitle, VisionWrapper, Wrapper
 } from "./style";
 import IphoneImg from "../../assets/images/iphone.png"
-import Play from "../../assets/images/play.png"
+import Play from "../../assets/images/Play.png"
 import Hero from "../../assets/images/hero.png"
-import Images from "../../assets/images/images.png"
+import Images from "../../assets/images/Images.png"
 import Mak from "../../assets/images/Makk.png"
 import Phones from "../../assets/images/Phones.png"
 import SmartWatches from "../../assets/images/SmartWatches.png"
