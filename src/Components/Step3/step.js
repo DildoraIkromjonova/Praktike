@@ -23,7 +23,6 @@ Icons.Parent= styled(Parent)``
 const StepWrapper = styled.div`
   max-width: 1440px;
   width: 100%;
-  padding: 0 20px;
   margin: 0 auto;
   height:1576px;
 `
@@ -36,7 +35,6 @@ const Container = styled.div`
   padding: 0 40px;
   max-width: 1440px;
   width: 100%;
-  padding: 0 20px;
   margin: 0 auto;
 `
 const InputWrapper = styled.div`

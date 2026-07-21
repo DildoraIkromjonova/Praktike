@@ -14,11 +14,10 @@ import Twitter from "../../assets/icons/Twitter.svg?react"
 import Fasebook from "../../assets/icons/fasebook.svg?react"
 import wectrr from "../../assets/icons/wectrr.svg?react"
 import Parent from "../../assets/icons/Parent.svg?react"
-
-
-const Icons = styled.div`
-`
+import Like from "../../assets/icons/Like.svg?react"
+const Icons = styled.div``
 Icons.SearchIcon = styled(SearchIcon)``
+Icons.Like = styled(Like)``
 Icons.Vector = styled(Vector)``
 Icons.Savat = styled(Savat)``
 Icons.Love = styled(Love)``
@@ -26,20 +25,13 @@ Icons.Right = styled(Right)``
 Icons.Control = styled(Control)``
 Icons.Errow = styled(Errow)``
 Icons.Strlka = styled(Strlka)``
-Icons.Favorite = styled(Favorite)`
-  position: absolute;
-  top: 12px;
-  right: 12px;
-`
+Icons.Favorite = styled(Favorite)``
 Icons.Arrow = styled(Arrow)``
 Icons.arowRight = styled(arowRight)``
 Icons.Twitter = styled(Twitter)``
 Icons.Fasebook = styled(Fasebook)``
 Icons.wectrr = styled(wectrr)``
 Icons.Parent = styled(Parent)``
-
-
-
 const ProductsPage = styled.div`
   max-width: 1240px;
   width: 100%;
@@ -54,7 +46,6 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 40px;
 `
 const InputWrapper = styled.div`
   width:372px;

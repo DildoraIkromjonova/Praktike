@@ -11,7 +11,7 @@ import Twitter from "../../assets/icons/Twitter.svg?react"
 import Fasebook from "../../assets/icons/fasebook.svg?react"
 import wectrr from "../../assets/icons/wectrr.svg?react"
 import Parent from "../../assets/icons/Parent.svg?react"
-
+import { Link as RouterLink } from "react-router-dom";
 
 const Icons = styled.div`
 `
@@ -35,15 +35,9 @@ Icons.Twitter = styled(Twitter)``
 Icons.Fasebook = styled(Fasebook)``
 Icons.wectrr = styled(wectrr)``
 Icons.Parent = styled(Parent)``
-
-
-
 const Wrapper = styled.div`
-  max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
-  height:
-  padding: 0 20px;
+  min-height: 100vh;
   box-sizing: border-box;
   overflow-x: hidden;
 `;
@@ -81,14 +75,15 @@ const List = styled.ul`
 const Item = styled.li`
 
 `
-const Link = styled.a`
+const Link = styled(RouterLink)`
   text-decoration: none;
   color: #000;
   font-size: 15px;
+
   &:hover {
     color: #888;
   }
-`
+`;
 const Container2 = styled.div`
 width:100%;
 height:632px;
