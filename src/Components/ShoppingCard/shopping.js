@@ -4,7 +4,7 @@ import Vector from "../../assets/icons/Vector.svg?react"
 import Savat from "../../assets/icons/Savat.svg?react"
 import Love from "../../assets/icons/Love.svg?react"
 import Twitter from "../../assets/icons/Twitter.svg?react";
-import Fasebook from "../../assets/icons/Fasebook.svg?react"
+import Fasebook from "../../assets/icons/fasebook.svg?react"
 import wectrr from "../../assets/icons/wectrr.svg?react"
 import Parent from "../../assets/icons/Parent.svg?react"
 
