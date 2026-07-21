@@ -6,7 +6,7 @@ import styled from "styled-components";
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(135deg, #333 50%, #fff 50%);
+   background:rgb(47, 42, 42) ;
 `;
 
  const Form = styled.form`
